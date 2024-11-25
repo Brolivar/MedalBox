@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BCA4B05F2CF53B9400C8DB70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA4B0402CF53B9300C8DB70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA4B0472CF53B9300C8DB70;
+			remoteInfo = MedalBox;
+		};
+		BCA4B0692CF53B9400C8DB70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA4B0402CF53B9300C8DB70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA4B0472CF53B9300C8DB70;
+			remoteInfo = MedalBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA4B0482CF53B9300C8DB70 /* MedalBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedalBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA4B05E2CF53B9400C8DB70 /* MedalBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedalBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA4B0682CF53B9400C8DB70 /* MedalBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedalBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BCA4B0702CF53B9400C8DB70 /* Exceptions for "MedalBox" folder in "MedalBox" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BCA4B0472CF53B9300C8DB70 /* MedalBox */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BCA4B04A2CF53B9300C8DB70 /* MedalBox */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BCA4B0702CF53B9400C8DB70 /* Exceptions for "MedalBox" folder in "MedalBox" target */,
+			);
+			path = MedalBox;
+			sourceTree = "<group>";
+		};
+		BCA4B0612CF53B9400C8DB70 /* MedalBoxTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MedalBoxTests;
+			sourceTree = "<group>";
+		};
+		BCA4B06B2CF53B9400C8DB70 /* MedalBoxUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MedalBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA4B0452CF53B9300C8DB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA4B05B2CF53B9400C8DB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA4B0652CF53B9400C8DB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA4B03F2CF53B9300C8DB70 = {
+			isa = PBXGroup;
+			children = (
+				BCA4B04A2CF53B9300C8DB70 /* MedalBox */,
+				BCA4B0612CF53B9400C8DB70 /* MedalBoxTests */,
+				BCA4B06B2CF53B9400C8DB70 /* MedalBoxUITests */,
+				BCA4B0492CF53B9300C8DB70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA4B0492CF53B9300C8DB70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA4B0482CF53B9300C8DB70 /* MedalBox.app */,
+				BCA4B05E2CF53B9400C8DB70 /* MedalBoxTests.xctest */,
+				BCA4B0682CF53B9400C8DB70 /* MedalBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA4B0472CF53B9300C8DB70 /* MedalBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA4B0712CF53B9400C8DB70 /* Build configuration list for PBXNativeTarget "MedalBox" */;
+			buildPhases = (
+				BCA4B0442CF53B9300C8DB70 /* Sources */,
+				BCA4B0452CF53B9300C8DB70 /* Frameworks */,
+				BCA4B0462CF53B9300C8DB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BCA4B04A2CF53B9300C8DB70 /* MedalBox */,
+			);
+			name = MedalBox;
+			packageProductDependencies = (
+			);
+			productName = MedalBox;
+			productReference = BCA4B0482CF53B9300C8DB70 /* MedalBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA4B05D2CF53B9400C8DB70 /* MedalBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA4B0762CF53B9400C8DB70 /* Build configuration list for PBXNativeTarget "MedalBoxTests" */;
+			buildPhases = (
+				BCA4B05A2CF53B9400C8DB70 /* Sources */,
+				BCA4B05B2CF53B9400C8DB70 /* Frameworks */,
+				BCA4B05C2CF53B9400C8DB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA4B0602CF53B9400C8DB70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BCA4B0612CF53B9400C8DB70 /* MedalBoxTests */,
+			);
+			name = MedalBoxTests;
+			packageProductDependencies = (
+			);
+			productName = MedalBoxTests;
+			productReference = BCA4B05E2CF53B9400C8DB70 /* MedalBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCA4B0672CF53B9400C8DB70 /* MedalBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA4B0792CF53B9400C8DB70 /* Build configuration list for PBXNativeTarget "MedalBoxUITests" */;
+			buildPhases = (
+				BCA4B0642CF53B9400C8DB70 /* Sources */,
+				BCA4B0652CF53B9400C8DB70 /* Frameworks */,
+				BCA4B0662CF53B9400C8DB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA4B06A2CF53B9400C8DB70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BCA4B06B2CF53B9400C8DB70 /* MedalBoxUITests */,
+			);
+			name = MedalBoxUITests;
+			packageProductDependencies = (
+			);
+			productName = MedalBoxUITests;
+			productReference = BCA4B0682CF53B9400C8DB70 /* MedalBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA4B0402CF53B9300C8DB70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BCA4B0472CF53B9300C8DB70 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BCA4B05D2CF53B9400C8DB70 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BCA4B0472CF53B9300C8DB70;
+					};
+					BCA4B0672CF53B9400C8DB70 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BCA4B0472CF53B9300C8DB70;
+					};
+				};
+			};
+			buildConfigurationList = BCA4B0432CF53B9300C8DB70 /* Build configuration list for PBXProject "MedalBox" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA4B03F2CF53B9300C8DB70;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BCA4B0492CF53B9300C8DB70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA4B0472CF53B9300C8DB70 /* MedalBox */,
+				BCA4B05D2CF53B9400C8DB70 /* MedalBoxTests */,
+				BCA4B0672CF53B9400C8DB70 /* MedalBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA4B0462CF53B9300C8DB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA4B05C2CF53B9400C8DB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA4B0662CF53B9400C8DB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA4B0442CF53B9300C8DB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA4B05A2CF53B9400C8DB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA4B0642CF53B9400C8DB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA4B0602CF53B9400C8DB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA4B0472CF53B9300C8DB70 /* MedalBox */;
+			targetProxy = BCA4B05F2CF53B9400C8DB70 /* PBXContainerItemProxy */;
+		};
+		BCA4B06A2CF53B9400C8DB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA4B0472CF53B9300C8DB70 /* MedalBox */;
+			targetProxy = BCA4B0692CF53B9400C8DB70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCA4B0722CF53B9400C8DB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDQ2G3PC42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedalBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jebolivarh.MedalBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA4B0732CF53B9400C8DB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDQ2G3PC42;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedalBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jebolivarh.MedalBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCA4B0742CF53B9400C8DB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA4B0752CF53B9400C8DB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA4B0772CF53B9400C8DB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDQ2G3PC42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jebolivarh.MedalBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedalBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedalBox";
+			};
+			name = Debug;
+		};
+		BCA4B0782CF53B9400C8DB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDQ2G3PC42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jebolivarh.MedalBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedalBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedalBox";
+			};
+			name = Release;
+		};
+		BCA4B07A2CF53B9400C8DB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDQ2G3PC42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jebolivarh.MedalBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedalBox;
+			};
+			name = Debug;
+		};
+		BCA4B07B2CF53B9400C8DB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YDQ2G3PC42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jebolivarh.MedalBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedalBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA4B0432CF53B9300C8DB70 /* Build configuration list for PBXProject "MedalBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA4B0742CF53B9400C8DB70 /* Debug */,
+				BCA4B0752CF53B9400C8DB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA4B0712CF53B9400C8DB70 /* Build configuration list for PBXNativeTarget "MedalBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA4B0722CF53B9400C8DB70 /* Debug */,
+				BCA4B0732CF53B9400C8DB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA4B0762CF53B9400C8DB70 /* Build configuration list for PBXNativeTarget "MedalBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA4B0772CF53B9400C8DB70 /* Debug */,
+				BCA4B0782CF53B9400C8DB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA4B0792CF53B9400C8DB70 /* Build configuration list for PBXNativeTarget "MedalBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA4B07A2CF53B9400C8DB70 /* Debug */,
+				BCA4B07B2CF53B9400C8DB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA4B0402CF53B9300C8DB70 /* Project object */;
+}
