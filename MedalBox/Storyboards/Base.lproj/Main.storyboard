@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="MainViewController" customModule="MedalBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VP4-QW-aF6" userLabel="Achievements View">
+                                <rect key="frame" x="0.0" y="59" width="387" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyh-kD-iVL" userLabel="Achievements Button">
+                                        <rect key="frame" x="10" y="10" width="367" height="38"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Achievements(0) " imagePadding="160">
+                                            <imageReference key="image" image="greaterthan" catalog="system" symbolScale="medium"/>
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="achievementsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PB9-wb-bMe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Hyh-kD-iVL" firstAttribute="leading" secondItem="VP4-QW-aF6" secondAttribute="leading" constant="10" id="NC3-XH-m54"/>
+                                    <constraint firstAttribute="height" constant="200" id="gVB-PG-1Fs"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hyh-kD-iVL" secondAttribute="trailing" constant="10" id="scF-zs-wxu"/>
+                                    <constraint firstItem="Hyh-kD-iVL" firstAttribute="top" secondItem="VP4-QW-aF6" secondAttribute="top" constant="10" id="zCb-ZL-Q3Z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VP4-QW-aF6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wyf-ra-idy"/>
+                            <constraint firstItem="VP4-QW-aF6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gcC-LF-XV9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rtd-aW-dyg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066.4122137404579" y="-2.1126760563380285"/>
+        </scene>
+        <!--Achievements View Controller-->
+        <scene sceneID="49g-CR-2dh">
+            <objects>
+                <viewController storyboardIdentifier="AchievementsViewController" id="SfK-1Y-ZU5" customClass="AchievementsViewController" customModule="MedalBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vJA-xm-LYO">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="hyP-Kp-X4A"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cue-aV-uFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2137" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="greaterthan" catalog="system" width="128" height="108"/>
+    </resources>
+</document>

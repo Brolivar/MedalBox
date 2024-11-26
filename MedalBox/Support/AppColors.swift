@@ -8,16 +8,14 @@
 import UIKit
 
 enum AssetsColor: String {
-    case deepGrayText = "deepGrayText"
-    case grayHeader = "grayHeader"
-    case lightGrayHeader = "lightGrayHeader"
-    case navBarTurquoise = "navBarTurquoise"
-    case pureBlack = "pureBlack"
-    case pureWhite = "pureWhite"
+    case deepGrayText = "DeepGrayText"
+    case grayHeader = "GrayHeader"
+    case lightGrayHeader = "LightGrayHeader"
+    case navBarTurquoise = "NavBarTurquoise"
 }
 
 extension UIColor {
-    // Some SystemColors fallback could be added in the future so we don't unwrap every time we use it
+    // Some SystemColors fallback could be added in the future
     static func appColor(_ name: AssetsColor) -> UIColor? {
         return UIColor(named: name.rawValue)
     }

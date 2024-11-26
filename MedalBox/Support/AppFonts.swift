@@ -10,6 +10,7 @@ enum StandardFontSize: CGFloat {
     case small = 12
     case medium = 14
     case large = 16
+    case navigationHeader = 18
 }
 
 extension UIFont {
