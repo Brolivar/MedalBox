@@ -16,7 +16,7 @@ class NavigationBarAppearance {
         appearance.backgroundColor = UIColor.appColor(.navBarTurquoise)
         appearance.titleTextAttributes = [
             .foregroundColor: UIColor.white,
-            .font: UIFont.appFont(size: .navigationHeader, weight: .bold)
+            .font: UIFont.appFont(size: .large, weight: .bold)
         ]
 
         // Customize the back button appearance

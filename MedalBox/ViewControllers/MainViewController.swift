@@ -11,6 +11,7 @@ class MainViewController: UIViewController {
 
     //MARK: - Properties
     weak var coordinator: MainCoordinator?
+    var viewModel: AchievementsDataSource?
     let navigationTitle = "Home"
 
     // MARK: - Initialisation

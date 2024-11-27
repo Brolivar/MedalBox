@@ -1,0 +1,75 @@
+{
+  "achievements": [
+    {
+      "name": "Longest Run",
+      "category": "Personal Records",
+      "duration": "02:45:00",
+      "medalIcon": "longest_run",
+      "completed": true
+    },
+    {
+      "name": "Highest Elevation",
+      "category": "Personal Records",
+      "duration": "3000 meters",
+      "medalIcon": "highest_elevation",
+      "completed": false
+    },
+    {
+      "name": "Fastest 5K",
+      "category": "Personal Records",
+      "duration": "00:20:15",
+      "medalIcon": "fastest_5k",
+      "completed": true
+    },
+    {
+      "name": "Fastest 10K",
+      "category": "Personal Records",
+      "duration": "00:42:30",
+      "medalIcon": "fastest_10k",
+      "completed": false
+    },
+    {
+      "name": "Virtual Half Marathon Race",
+      "category": "Personal Records",
+      "duration": "02:00:00",
+      "medalIcon": "virtual_half_marathon_race",
+      "completed": true
+    },
+    {
+      "name": "Tokyo Kakone Ekiden",
+      "category": "Virtual Races",
+      "duration": "04:30:00",
+      "medalIcon": "tokyo_hakone_ekiden_2020",
+      "completed": true
+    },
+    {
+      "name": "Virtual 10K Race",
+      "category": "Virtual Races",
+      "duration": "00:50:00",
+      "medalIcon": "virtual_10k_race",
+      "completed": true
+    },
+    {
+      "name": "Hakone Ekiden",
+      "category": "Virtual Races",
+      "duration": "05:00:00",
+      "medalIcon": "hakone_ekiden",
+      "completed": false
+    },
+    {
+      "name": "Mizuno Singapore Ekiden",
+      "category": "Virtual Races",
+      "duration": "03:45:00",
+      "medalIcon": "mizuno_singapore_ekiden",
+      "completed": false
+    },
+    {
+      "name": "Virtual 5K Race",
+      "category": "Virtual Races",
+      "duration": "00:25:00",
+      "medalIcon": "virtual_5k_race",
+      "completed": true
+    }
+  ]
+}
+

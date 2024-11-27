@@ -12,6 +12,7 @@ enum AssetsColor: String {
     case grayHeader = "GrayHeader"
     case lightGrayHeader = "LightGrayHeader"
     case navBarTurquoise = "NavBarTurquoise"
+    case transparentWhite = "TransparentWhite"
 }
 
 extension UIColor {
