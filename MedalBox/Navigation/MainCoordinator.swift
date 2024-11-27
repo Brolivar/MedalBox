@@ -15,11 +15,11 @@ class MainCoordinator: Coordinator {
     var navigationController: UINavigationController
     var achievementsVm: AchievementsViewModel?
     // This way we only use one shared instance of networkManager
-    var networkManger: NetworkManager
+    var networkManager: NetworkManager
 
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
-        self.networkManger = NetworkManager()
+        self.networkManager = NetworkManager()
     }
 
     func start() {
@@ -27,7 +27,7 @@ class MainCoordinator: Coordinator {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         if let mainVC = storyboard.instantiateViewController(withIdentifier: "MainViewController") as? MainViewController {
             // Set the coordinator for MainVC
-            self.achievementsVm = AchievementsViewModel(networkManager: self.networkManger)
+            self.achievementsVm = AchievementsViewModel(networkManager: self.networkManager)
             mainVC.coordinator = self
             mainVC.viewModel = self.achievementsVm
 

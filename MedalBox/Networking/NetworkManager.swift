@@ -27,7 +27,6 @@ extension NetworkManager: NetworkControllerProtocol {
                 let decoder = JSONDecoder()
                 let response = try decoder.decode(AchievementResponse.self, from: data)
                 let achievements = response.achievements
-                print("achievments \(achievements)")
                 completion(.success(achievements))
             } catch {
                 print("Error decoding JSON: \(error)")

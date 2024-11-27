@@ -10,6 +10,8 @@ protocol AchievementsDataSource {
     func filterAchievements(by category: AchievementCategory) -> [Achievement]
     func achievementsCompleted(for category: AchievementCategory) -> Int
     func allCompleted() -> Int
+    func totalAchievements() -> Int
+    func achievementAt(index: Int) -> Achievement?
 }
 
 class AchievementsViewModel {
@@ -43,6 +45,18 @@ extension AchievementsViewModel: AchievementsDataSource {
 
     func allCompleted() -> Int {
         return achievements.filter { $0.completed }.count
+    }
+
+    func totalAchievements() -> Int {
+        return achievements.count
+    }
+
+    func achievementAt(index: Int) -> Achievement? {
+        guard index >= 0 && index < achievements.count else {
+            print("Index out of bounds: \(index)")
+            return nil
+        }
+        return achievements[index]
     }
 
     func requestAchievements(completion: @escaping () -> Void) {

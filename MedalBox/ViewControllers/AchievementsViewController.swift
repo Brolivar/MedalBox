@@ -38,6 +38,9 @@ class AchievementsViewController: UIViewController {
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         self.collectionView.backgroundColor = .white
+        self.collectionView.indicatorStyle = .black
+        self.collectionView.showsVerticalScrollIndicator = true
+
         if let layout = self.collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
             layout.sectionHeadersPinToVisibleBounds = true
             layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -69,6 +72,7 @@ extension AchievementsViewController: UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: self.cellIdentifier, for: indexPath) as? AchievementCollectionViewCell else {
+            print("Unable to dequeue AchievementCollectionViewCell")
             return UICollectionViewCell()
         }
         let filteredAchievements = self.viewModel?.filterAchievements(by: AchievementCategory.allCases[indexPath.section])
@@ -86,6 +90,7 @@ extension AchievementsViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
 
         guard let header = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: self.headerIdentifier, for: indexPath) as? HeaderView else {
+            print("Unable to dequeue HeaderView")
             return UICollectionReusableView()
         }
 
