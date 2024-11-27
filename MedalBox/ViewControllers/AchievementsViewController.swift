@@ -23,7 +23,6 @@ class AchievementsViewController: UIViewController {
         super.viewDidLoad()
         self.setupNavigationBar()
         self.setupCollectionView()
-        self.requestAchievements()
     }
 
     private func setupNavigationBar() {
@@ -43,12 +42,6 @@ class AchievementsViewController: UIViewController {
             layout.sectionHeadersPinToVisibleBounds = true
             layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         }
-    }
-
-    private func requestAchievements() {
-        self.viewModel?.requestAchievements(completion: { [weak self] in
-            self?.collectionView.reloadData()
-        })
     }
 
     // MARK: - Actions
@@ -100,7 +93,12 @@ extension AchievementsViewController: UICollectionViewDelegateFlowLayout {
         if section == AchievementCategory.virtualRaces.rawValue {
             header.configure(title: AchievementCategory.virtualRaces.description(), subtitle: nil)
         } else {
-            header.configure(title: AchievementCategory.personalRecords.description(), subtitle: "0 of 10")
+            // Display the number of completed achievements (also with a generic fallback)
+            let achievementsCompleted = self.viewModel?.achievementsCompleted(for: .personalRecords)
+            let totalAchievements = self.viewModel?.filterAchievements(by: .personalRecords).count
+            let progressText = "\(achievementsCompleted ?? 0) of \(totalAchievements ?? 10)"
+
+            header.configure(title: AchievementCategory.personalRecords.description(), subtitle: progressText)
         }
 
         return header

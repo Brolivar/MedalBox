@@ -30,20 +30,27 @@ class AchievementCollectionViewCell: UICollectionViewCell {
     func configure(title: String, subtitle: String, medalIcon: String, completed: Bool) {
         // In a real-world scenario, we would download the image asynchronously using a dataTask or a third-party lib
         self.badgeImage.image = UIImage(named: medalIcon)
+        self.configureTitle(title: title)
+        self.configureSubtitle(subtitle: subtitle)
+        self.configureDimmedView(completed: completed)
+    }
+
+    private func configureTitle(title: String) {
         self.mainTitle.text = title
         self.mainTitle.textColor = .black
         self.mainTitle.font = UIFont.appFont(size: .small, weight: .bold)
-        self.mainTitle.numberOfLines = 0
+        // Two lines max - if we were to support dynamic text size we would need to adjust the layout or cell size run-time
+        self.mainTitle.numberOfLines = 2
+    }
 
+    private func configureSubtitle(subtitle: String) {
         self.subTitle.text = subtitle
         self.subTitle.font = UIFont.appFont(size: .small)
         self.subTitle.textColor = .black
         self.subTitle.numberOfLines = 1
-
-        self.setupDimmedView(completed: completed)
     }
 
-    func setupDimmedView(completed: Bool) {
+    private func configureDimmedView(completed: Bool) {
         self.dimmedView.isHidden = completed
         self.dimmedView.backgroundColor = UIColor.appColor(.transparentWhite)
     }

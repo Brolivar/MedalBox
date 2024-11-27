@@ -36,6 +36,13 @@
       "completed": true
     },
     {
+      "name": "Marathon",
+      "category": "Personal Records",
+      "duration": "02:30:00",
+      "medalIcon": "virtual_marathon_race",
+      "completed": true
+    },
+    {
       "name": "Tokyo Kakone Ekiden",
       "category": "Virtual Races",
       "duration": "04:30:00",
