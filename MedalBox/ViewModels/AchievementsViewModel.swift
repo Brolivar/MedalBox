@@ -18,9 +18,6 @@ class AchievementsViewModel {
 
     // MARK: - Properties
 
-    // Note: An alternative approach would be to group the achievements using a dictionary with categories as keys.
-    // This would offer greater flexibility and scalability, especially if the number or names of categories were to change dynamically.
-    // However, to keep things simple and align with the provided UI mock, I opted to use an enum for a static structure.
     var achievements: [Achievement] = []
     var networkManager: NetworkManager
 
